@@ -1,5 +1,5 @@
 <template>
-  <Index msg="Vite + Vue"/>
+  <Index />
 </template>
 
 <script setup lang="ts">

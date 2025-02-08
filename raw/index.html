@@ -4,7 +4,36 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <title>Mankel@FrontEnd</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#3B82F6',
+                secondary: '#6366F1'
+              },
+              borderRadius: {
+                'none': '0px',
+                'sm': '2px',
+                DEFAULT: '4px',
+                'md': '8px',
+                'lg': '12px',
+                'xl': '16px',
+                '2xl': '20px',
+                '3xl': '24px',
+                'full': '9999px',
+                'button': '4px'
+              }
+            }
+          }
+        }
+      </script>
   </head>
   <body>
     <div id="app"></div>
