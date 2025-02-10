@@ -1,9 +1,0 @@
-body {
-  min-height: 1024px;
-  font-family: 'Inter', sans-serif;
-}
-.gradient-text {
-  background: linear-gradient(135deg, #3B82F6, #6366F1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}

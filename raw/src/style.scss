@@ -1,0 +1,29 @@
+body {
+  min-height: 1024px;
+  font-family: 'Inter', sans-serif;
+  &.mk-lock-scroll {
+    overflow: clip;
+  }
+}
+
+code {
+  white-space: pre-wrap; /* 允许内容换行 */
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #3B82F6, #6366F1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mk-backdrop {backdrop-filter: blur(4px);}
+
+.mk-css-dialog {
+  width: 50vw; min-height: 10vh; max-height: 60vh; border-radius: 16px; padding: 16px; position: relative;
+  &::backdrop {
+    backdrop-filter: blur(4px);
+  }
+  .mk-css-dialog__buttons {
+    position: absolute; right: 8px; top: 8px;
+  }
+}
