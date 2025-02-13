@@ -71,4 +71,14 @@ export const CssCollections: CssCollection[] = [
     }`,
     background: 'background: #ebecf0;',
   },
+  {
+    label: '文字反色',
+    dom: `<div class="mk-mix-blend-mode text-3xl">文字反色 mix-blend-mode</div>`,
+    css: '.mk-mix-blend-mode {color: white; mix-blend-mode: difference;}',
+  },
+  {
+    label: '水平垂直居中',
+    dom: `<div class="mk-hv-center rounded-lg"><div class="w-20 h-20 bg-white rounded-lg"></div></div>`,
+    css: '.mk-hv-center {display: flex; width: 160px; height: 160px; background: #ffffff99; & > div {margin: auto;}}',
+  },
 ];

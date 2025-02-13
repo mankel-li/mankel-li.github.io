@@ -91,9 +91,9 @@
           <div>
             <h3 class="text-white font-semibold mb-4">社交媒体</h3>
             <ul class="space-y-2">
-              <li><a href="#" class="hover:text-white">GitHub</a></li>
-              <li><a href="#" class="hover:text-white">Twitter</a></li>
-              <li><a href="#" class="hover:text-white">LinkedIn</a></li>
+              <li><a href="https://github.com/mankel-li/" class="hover:text-white">GitHub</a></li>
+<!--              <li><a href="#" class="hover:text-white">Twitter</a></li>-->
+<!--              <li><a href="#" class="hover:text-white">LinkedIn</a></li>-->
             </ul>
           </div>
           <div>

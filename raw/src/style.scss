@@ -1,9 +1,10 @@
 body {
   min-height: 1024px;
   font-family: 'Inter', sans-serif;
-  &.mk-lock-scroll {
-    overflow: clip;
-  }
+  &::-webkit-scrollbar {display: none;}
+  //&.mk-lock-scroll {
+  //  overflow: clip;
+  //}
 }
 
 code {
